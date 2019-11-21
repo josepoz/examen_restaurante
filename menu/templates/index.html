@@ -1,0 +1,14 @@
+<table>
+<tr>
+    <th>Nombre</th>
+    <th>Cocienro Responsable</th>
+    <th>Costo</th>
+</tr>
+{% for menu in menus %}
+<tr>
+    <td><p3>{{ menu.nombre }} </p3></td>   
+    <td>{{ menu.cocinero_responsable }}</td>
+    <th>{{ menu.costo_total}} </th>
+</tr>
+{% endfor %}
+</table>
